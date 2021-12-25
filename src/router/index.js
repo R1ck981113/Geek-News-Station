@@ -18,7 +18,8 @@ const routes = [
      {
        path:'',//默认子路由
        name:'home',
-       component:() => import('../views/home.vue')
+       component:() => import('../views/home.vue'),
+       
      },
      {
       path:'/qa',
